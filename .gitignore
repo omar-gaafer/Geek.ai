@@ -1,0 +1,22 @@
+# Raw datasets are large and have their own licences: download them, don't commit them.
+data/raw/
+data/processed/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Course brief from the instructors (not ours to redistribute)
+Project Idea.pdf
