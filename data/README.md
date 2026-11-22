@@ -1,6 +1,8 @@
 # Datasets
 
-All data is public. Raw files live in `data/raw/` and are **not committed to Git** (size and licences). Download them again with the links below.
+All data is public. Raw files live in `data/raw/` and are **not committed to Git** (size and licences).
+
+**Mirror:** an exact copy of `data/raw/` is in this [public Google Drive folder](https://drive.google.com/drive/folders/1w_0md9dmjnYGvht6pmoRgVm0mA4EkI0_). `notebooks/phase1.ipynb` downloads the files it needs from there automatically with `gdown`. The original sources are listed below.
 
 | Folder | Dataset | Used for | Rows | Licence | Downloaded |
 |---|---|---|---|---|---|

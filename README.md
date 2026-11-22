@@ -32,7 +32,7 @@ The full-URL model scores almost perfectly, but it is cheating. On data from out
 
 ## How to run
 
-**Colab:** click the badge above and run all cells. The notebook clones this repo and downloads PhiUSIIL from UCI automatically.
+**Colab:** click the badge above and choose *Runtime → Run all*. Nothing needs to be uploaded. The notebook clones this repo and downloads the datasets it needs from a [public Google Drive folder](https://drive.google.com/drive/folders/1w_0md9dmjnYGvht6pmoRgVm0mA4EkI0_). If Drive is unavailable, it falls back to UCI and the live OpenPhish feed.
 
 **Local:**
 ```bash
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 pytest -q                       # 10 tests
 jupyter notebook notebooks/phase1.ipynb
 ```
-Put the raw datasets in `data/raw/` as described in [data/README.md](data/README.md).
+The first notebook cell downloads any missing dataset into `data/raw/`. To get everything at once, download the whole [Drive folder](https://drive.google.com/drive/folders/1w_0md9dmjnYGvht6pmoRgVm0mA4EkI0_). See [data/README.md](data/README.md) for sources and licences.
 
 ## Method (Phase 1)
 
